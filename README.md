@@ -25,5 +25,4 @@ $ npm run dev
 ```
 
 
-#### Thank you for your patience )))# NativeJS_bangkok-express
-# NativeJS_bangkok-express
+#### Thank you for your patience )))
