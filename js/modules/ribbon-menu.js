@@ -9,10 +9,10 @@ export default class RibbonMenu {
     render() {
         const ribbon = createElement(`<div class="ribbon"></div>`);
         const toLeft = createElement(`<button class="ribbon__arrow ribbon__arrow_left">
-      <img src="./../../assets/images/icons/angle-icon.svg" alt="icon">
+      <img src="./assets/images/icons/angle-icon.svg" alt="icon">
     </button>`);
         const toRight = createElement(`<button class="ribbon__arrow ribbon__arrow_right ribbon__arrow_visible">
-      <img src="./../../assets/images/icons/angle-icon.svg" alt="icon">
+      <img src="./assets/images/icons/angle-icon.svg" alt="icon">
     </button>`);
         const ribbonHolder = createElement(`<nav class="ribbon__inner"></nav>`);
 
