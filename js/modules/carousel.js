@@ -12,12 +12,12 @@ export default class Carousel {
     const carousel = createElement(`<div class="carousel"></div>`);
     const arrRight = createElement(`
         <div class="carousel__arrow carousel__arrow_right">
-            <img src="./../../assets/images/icons/angle-icon.svg" alt="icon">
+            <img src="./assets/images/icons/angle-icon.svg" alt="icon">
         </div>
     `);
     const arrLeft = createElement(`
         <div class="carousel__arrow carousel__arrow_left">
-            <img src="./../../assets/images/icons/angle-left-icon.svg" alt="icon">
+            <img src="./assets/images/icons/angle-left-icon.svg" alt="icon">
         </div>
     `);
     const slidesHolder = createElement(`<div class="carousel__inner"></div>`);
@@ -58,12 +58,12 @@ export default class Carousel {
     for (let slide of this.slides) {
       slidesHolder.appendChild(createElement(`
           <div class="carousel__slide">
-            <img src="./../../assets/images/carousel/${slide.image}" class="carousel__img" alt="slide">
+            <img src="./assets/images/carousel/${slide.image}" class="carousel__img" alt="slide">
             <div class="carousel__caption">
               <span class="carousel__price">€${slide.price.toFixed(2)}</span>
               <div class="carousel__title">${slide.name}</div>
               <button type="button" class="carousel__button" data-id="${slide.id}">
-                <img src="./../../assets/images/icons/plus-icon.svg" alt="icon">
+                <img src="./assets/images/icons/plus-icon.svg" alt="icon">
               </button>
             </div>
           </div>
