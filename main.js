@@ -1,4 +1,4 @@
-import Main from '/js/index.js';
+import Main from './js/index.js';
 
 let main = new Main();
 
